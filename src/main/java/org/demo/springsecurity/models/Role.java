@@ -4,10 +4,9 @@ import jakarta.persistence.Entity;
 import lombok.Getter;
 import lombok.Setter;
 
+@Entity
 @Getter
 @Setter
-@Entity
-public class Users extends BaseModel {
-    private String email;
-    private String password;
-    }
+public class Role extends BaseModel {
+    private String role;
+}
